@@ -162,6 +162,20 @@ body {
   object-fit: contain;
 }
 
+.event-icon-text {
+  min-width: 72px;
+  min-height: 72px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #c9b19a;
+}
+
+.event-icon-outfit {
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .event-btn {
   display: inline-block;
   margin-top: 1.5rem;
