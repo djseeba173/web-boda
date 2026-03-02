@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Nuestra Boda - MyS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 10px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      filter: none !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero" style="background-image: url('media/foto_portada.jpg'); background-size: cover; background-position: center;">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Nuestra Boda</h1>
+      <h2>MyS</h2>
+      <p class="hero-date">27 · 09 · 2026</p>
+    </div>
+  </section>
+
+  <!-- CONTADOR (Movido arriba) -->
+  <section class="countdown">
+    <h3>Cuenta regresiva para nuestro gran día</h3>
+    <div class="timer">
+      <div><span id="days">0</span><small>Días</small></div>
+      <div><span id="hours">0</span><small>Horas</small></div>
+      <div><span id="minutes">0</span><small>Minutos</small></div>
+      <div><span id="seconds">0</span><small>Segundos</small></div>
+    </div>
+  </section>
+
+  <!-- TEXTO + FOTOS -->
+  <section class="story">
+    <div class="story-container reveal">
+      <div class="story-card">
+        <p>
+          En 2016, en el colegio, Mayra y Sebastian se conocieron y el destino
+          los volvio parte de la misma historia. Con el tiempo, lo que empezo
+          como una amistad se fue transformando en un vinculo cada vez mas
+          fuerte, lleno de confianza, compañía y momentos compartidos.
+        </p>
+        <p>
+          A lo largo de estos años construyeron un camino con risas, aventuras
+          y desafios que los unieron aun mas. Hoy quieren celebrar este gran
+          momento con vos, que formes parte de este dia tan especial y los
+          acompanes en esta nueva etapa.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA -->
+  <section class="gallery">
+    <div class="gallery-grid">
+      <img src="media/1.jpeg" class="photo reveal" alt="Foto 1" loading="lazy">
+      <img src="media/2.jpeg" class="photo reveal" alt="Foto 2" loading="lazy">
+      <img src="media/3.jpeg" class="photo reveal" alt="Foto 3" loading="lazy">
+      <img src="media/4.jpeg" class="photo reveal" alt="Foto 4" loading="lazy">
+      <img src="media/5.jpeg" class="photo reveal" alt="Foto 5" loading="lazy">
+      <img src="media/6.jpeg" class="photo reveal" alt="Foto 6" loading="lazy">
+      <img src="media/7.jpeg" class="photo reveal" alt="Foto 7" loading="lazy">
+      <img src="media/8.jpeg" class="photo reveal" alt="Foto 8" loading="lazy">
+      <img src="media/9.jpeg" class="photo reveal" alt="Foto 9" loading="lazy">
+      <img src="media/10.jpeg" class="photo reveal" alt="Foto 10" loading="lazy">
+      <img src="media/11.jpeg" class="photo reveal" alt="Foto 11" loading="lazy">
+      <img src="media/12.jpeg" class="photo reveal" alt="Foto 12" loading="lazy">
+      <img src="media/13.jpeg" class="photo reveal" alt="Foto 13" loading="lazy">
+      <img src="media/14.jpeg" class="photo reveal" alt="Foto 14" loading="lazy">
+      <img src="media/15.jpeg" class="photo reveal" alt="Foto 15" loading="lazy">
+      <img src="media/16.jpeg" class="photo reveal" alt="Foto 16" loading="lazy">
+      <img src="media/17.jpeg" class="photo reveal" alt="Foto 17" loading="lazy">
+      <img src="media/18.jpeg" class="photo reveal" alt="Foto 18" loading="lazy">
+      <img src="media/19.jpeg" class="photo reveal" alt="Foto 19" loading="lazy">
+      <img src="media/20.jpeg" class="photo reveal" alt="Foto 20" loading="lazy">
+      <img src="media/21.jpeg" class="photo reveal" alt="Foto 21" loading="lazy">
+      <img src="media/22.jpeg" class="photo reveal" alt="Foto 22" loading="lazy">
+      <img src="media/23.jpeg" class="photo reveal" alt="Foto 23" loading="lazy">
+      <img src="media/24.jpeg" class="photo reveal" alt="Foto 24" loading="lazy">
+      <img src="media/25.jpeg" class="photo reveal" alt="Foto 25" loading="lazy">
+      <img src="media/26.jpeg" class="photo reveal" alt="Foto 26" loading="lazy">
+      <img src="media/27.jpeg" class="photo reveal" alt="Foto 27" loading="lazy">
+      <img src="media/28.jpeg" class="photo reveal" alt="Foto 28" loading="lazy">
+      <img src="media/29.jpeg" class="photo reveal" alt="Foto 29" loading="lazy">
+      <img src="media/30.jpeg" class="photo reveal" alt="Foto 30" loading="lazy">
+      <img src="media/31.jpeg" class="photo reveal" alt="Foto 31" loading="lazy">
+      <img src="media/32.jpeg" class="photo reveal" alt="Foto 32" loading="lazy">
+    </div>
+  </section>
+
+  <!-- FLASHCARDS -->
+  <section class="flashcards">
+    <div class="flashcards-grid">
+
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Fecha de Novios</div>
+          <div class="flashcard-back">26 / 09 / 2019</div>
+        </div>
+      </div>
+
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Años Juntos</div>
+          <div class="flashcard-back">7 años</div>
+        </div>
+      </div>
+
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Propuesta</div>
+          <div class="flashcard-back">03 / 03 / 2025</div>
+        </div>
+      </div>
+
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Dónde nos conocimos</div>
+          <div class="flashcard-back">Escuela Secundaria “Pelle”</div>
+        </div>
+      </div>
+
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">Nos define</div>
+          <div class="flashcard-back">Compañeros de Crecimiento</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="event-details">
+    <div class="event-details-grid">
+      <article class="event-card reveal">
+        <span class="event-icon">
+          <img src="media/iglesia.png" alt="Icono de iglesia" class="event-icon-image">
+        </span>
+        <h3>Ceremonia</h3>
+        <p>13:00hs Santuario Jesus Sacramentado</p>
+        <a class="event-btn" href="https://maps.app.goo.gl/wZoAE5vLJ9DzKmX38" target="_blank" rel="noopener noreferrer">Llegar a la ceremonia</a>
+      </article>
+
+      <article class="event-card reveal">
+        <span class="event-icon">
+          <img src="media/brindis.png" alt="Icono de brindis" class="event-icon-image">
+        </span>
+        <h3>Celebracion</h3>
+        <p>Despues de la ceremonia festejaremos en el salon de Eventos Jano's Lahusen</p>
+        <a class="event-btn" href="https://maps.app.goo.gl/vN4rwBGcuryrJyKt6" target="_blank" rel="noopener noreferrer">Llegar a la celebracion</a>
+      </article>
+
+      <article class="event-card gift-card reveal">
+        <span class="event-icon">
+          <img src="media/regalo.png" alt="Icono de regalo" class="event-icon-image">
+        </span>
+        <h3>Regalo</h3>
+        <p>Si deseas hacernos un regalo, ademas de tu hermosa presencia...</p>
+        <button type="button" class="event-btn" id="openBankModal">Ver datos bancarios</button>
+      </article>
+    </div>
+  </section>
+
+  <div class="bank-modal" id="bankModal" aria-hidden="true">
+    <div class="bank-modal-backdrop" data-close-bank-modal></div>
+    <div class="bank-modal-card" role="dialog" aria-modal="true" aria-labelledby="bankModalTitle">
+      <button type="button" class="bank-modal-close" id="closeBankModal" aria-label="Cerrar">x</button>
+      <p class="bank-modal-kicker">Datos bancarios</p>
+      <h3 id="bankModalTitle">Cuenta a nombre de:</h3>
+      <p class="bank-modal-name">Boris Sebastian Salinas</p>
+      <p><strong>CVU:</strong> 0000076500000012025787</p>
+      <p><strong>ALIAS:</strong> boda.may.seba.2026</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

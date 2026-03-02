@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bienvenida - Nuestra Boda</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="login-body" style="background-image: url('media/fondo_codigo.jpeg');">
+
+  <div class="login-card">
+    <div id="step-input">
+      <h2>Nos encantaria que seas parte de este dia tan especial</h2>
+      <p>Ingresa tu codigo para continuar</p>
+
+      <input type="text" id="guestCode" class="login-input" placeholder="CODIGO" />
+      <button type="button" onclick="verificarCodigo()" class="login-btn">Continuar</button>
+
+      <p id="errorMsg" style="color: #7a2e3a; margin-top: 10px; display: none;">
+        Codigo incorrecto, intenta nuevamente.
+      </p>
+    </div>
+
+    <div id="step-welcome" style="display: none;">
+      <h2 id="welcomeTitle" style="font-size: 2rem; line-height: 1.2;"></h2>
+
+      <h3 style="color: var(--gold); margin: 1rem 0;">
+        Esperamos que puedan compartir esta fiesta junto a nosotros
+      </h3>
+
+      <p style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">
+        N&deg; de invitados: <strong id="guestCount" style="font-size: 1.2rem;"></strong>
+      </p>
+
+      <br>
+      <a href="index.html" class="login-btn">ABRIR INVITACION</a>
+    </div>
+  </div>
+
+  <script src="guest-data.js"></script>
+  <script src="bienvenida.js"></script>
+</body>
+</html>
