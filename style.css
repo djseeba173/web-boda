@@ -145,6 +145,13 @@ body {
   margin: 0 auto;
 }
 
+.event-subtitle {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.6rem;
+}
+
 .event-icon {
   display: inline-flex;
   align-items: center;
