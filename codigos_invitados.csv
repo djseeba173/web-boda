@@ -9,12 +9,12 @@ MAY007;Nazira;1;4
 MAY008;Belen;1;4
 MAY009;Lara;1;4
 MAY010;Romina;1;4
-MAY011;Gabriela;1;4
+MAY011;Mayra;1;4
 MAY012;Giuliana, Cecilia, Gustavo;3;6
 MAY013;Melanie;1;6
 MAY014;Flavio;1;6
 MAY015;Maximiliano;1;6
-MAY016;Ileana;1;6
+MAY016;Mariano;1;6
 MAY017;Elizabeth;1;6
 MAY018;Ezequiel;1;6
 MAY019;Carlos;1;6
@@ -28,7 +28,7 @@ MAY026;Matias;1;9
 MAY027;Sofia;1;9
 MAY028;Jael;1;9
 MAY029;Matias;1;9
-MAY030;Gabriel/Mayra;1;9
+MAY030;Gabriela;1;9
 MAY031;Eliana;1;9
 SEB001;Viviana, Fernando, Carlos;3;1
 SEB002;Nicolas, Ester, Camila;3;1
@@ -36,10 +36,10 @@ SEB003;Carolina, Federico;2;1
 SEB004;Leandro, Iara;2;1
 SEB005;Sofia, Andres;2;3
 SEB006;Arian, Vanesa;2;3
-SEB007;Mateo, Julieta, Andres, Gabriela, Lourdes, Tomas;6;3
-SEB008;Ximena, Bautista, Emiliano;3;3
-SEB009;Ana mama de caro, Carolina;2;4
-SEB010;Isabel mama de lauty, Luis papa de lauty, Lautaro;3;4
+SEB007;Julieta, Andres, Gabriela, Lourdes, Tomas;5;3
+SEB008;Bautista;3;3
+SEB009;Ana, Carolina;2;4
+SEB010;Isabel, Luis, Lautaro;3;4
 SEB011;Paula;1;4
 SEB012;Graciela, Cacho;2;5
 SEB013;Gustavo;1;5
@@ -51,5 +51,5 @@ SEB018;Alan;1;7
 SEB019;Alex;1;7
 SEB020;Laia;1;7
 SEB021;Kevin;1;7
-SEB022;Brenda;1;3
+SEB022;--;1;3
 TOTAL;;82;

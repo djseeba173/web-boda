@@ -334,7 +334,7 @@ body {
 .flashcard-back {
   background: var(--white);
   transform: rotateY(180deg);
-  color: var(--gold);
+  color: var(--bordo);
 }
 
 /* COUNTDOWN */
@@ -482,7 +482,7 @@ body {
 .leyenda-confirmacion {
   font-family: 'Inter', sans-serif;
   font-size: 0.78rem;
-  color: rgba(14, 14, 14, 0.5);
+  color: var(--bordo);
   font-style: italic;
   margin: 1.25rem 0 0.25rem;
   padding: 0 0.25rem;
@@ -492,7 +492,7 @@ body {
 .tap-hint-text {
   font-family: 'Inter', sans-serif;
   font-size: 0.7rem;
-  color: rgba(14, 14, 14, 0.35);
+  color: var(--bordo);
   margin-top: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
