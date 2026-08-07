@@ -40,7 +40,7 @@ window.GUEST_GROUPS = {
   SEB008: { guests: ["Bautista"], guestCount: 1, table: "3" },
   SEB009: { guests: ["Ana", "Carolina"], guestCount: 2, table: "4" },
   SEB010: { guests: ["Isabel", "Luis", "Lautaro"], guestCount: 3, table: "4 y 5" },
-  SEB011: { guests: ["Rubén", "Marcela"], guestCount: 2, table: "5" },
+  SEB011: { guests: ["Gladys",], guestCount: 1, table: "5" },
   SEB012: { guests: ["Graciela", "Cacho"], guestCount: 2, table: "5" },
   SEB013: { guests: ["Gustavo"], guestCount: 1, table: "5" },
   SEB014: { guests: ["Diego"], guestCount: 1, table: "7" },
@@ -49,7 +49,8 @@ window.GUEST_GROUPS = {
   SEB017: { guests: ["Agostina"], guestCount: 1, table: "7" },
   SEB018: { guests: ["Alan"], guestCount: 1, table: "7" },
   SEB019: { guests: ["Alex"], guestCount: 1, table: "7" },
-  SEB020: { guests: ["--"], guestCount: 1, table: "7" },
+  SEB020: { guests: ["Laia Llusá"], guestCount: 1, table: "7" },
   SEB021: { guests: ["Kevin"], guestCount: 1, table: "7" },
-  SEB022: { guests: ["--"], guestCount: 1, table: "3" }
+  SEB022: { guests: ["Sofía Jara"], guestCount: 1, table: "3" },
+  SEB023: { guests: ["Ana Juarez"], guestCount: 1, table: "3" }
 };
