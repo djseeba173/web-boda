@@ -9,7 +9,7 @@ window.GUEST_GROUPS = {
   MAY008: { guests: ["Belen"], guestCount: 1, table: "4" },
   MAY009: { guests: ["Lara"], guestCount: 1, table: "4" },
   MAY010: { guests: ["Romina"], guestCount: 1, table: "4" },
-  MAY011: { guests: ["Mayra"], guestCount: 1, table: "4" },
+  MAY011: { guests: ["Priscila"], guestCount: 1, table: "4" },
   MAY012: { guests: ["Giuliana", "Cecilia", "Gustavo"], guestCount: 3, table: "6" },
   MAY013: { guests: ["Melanie"], guestCount: 1, table: "6" },
   MAY014: { guests: ["Flavio", "Adriana"], guestCount: 2, table: "6" },
@@ -25,7 +25,7 @@ window.GUEST_GROUPS = {
   MAY024: { guests: ["Tali", "Daniela"], guestCount: 2, table: "8" },
   MAY025: { guests: ["Gabriel"], guestCount: 1, table: "9" },
   MAY026: { guests: ["Matias"], guestCount: 1, table: "9" },
-  MAY027: { guests: ["Sofia"], guestCount: 1, table: "9" },
+  MAY027: { guests: ["Jimena"], guestCount: 1, table: "9" },
   MAY028: { guests: ["Jael"], guestCount: 1, table: "9" },
   MAY029: { guests: ["Matias"], guestCount: 1, table: "9" },
   MAY030: { guests: ["Gabriela"], guestCount: 1, table: "9" },
@@ -52,5 +52,6 @@ window.GUEST_GROUPS = {
   SEB020: { guests: ["Laia Llusá"], guestCount: 1, table: "7" },
   SEB021: { guests: ["Kevin"], guestCount: 1, table: "7" },
   SEB022: { guests: ["Sofía Jara"], guestCount: 1, table: "3" },
-  SEB023: { guests: ["Ana Juarez"], guestCount: 1, table: "3" }
+  SEB023: { guests: ["Ana Juarez"], guestCount: 1, table: "3" },
+  SEB024: { guests: ["Mica Rossi"], guestCount: 1, table: "3" }
 };
