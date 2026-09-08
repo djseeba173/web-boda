@@ -32,6 +32,7 @@ window.GUEST_GROUPS = {
   MAY031: { guests: ["Eliana"], guestCount: 1, table: "9" },
   MAY032: { guests: ["Soledad"], guestCount: 1, table: "9" },
   MAY033: { guests: ["Mayra"], guestCount: 1, table: "9" },
+  MAY034: { guests: ["Caterina"], guestCount: 1, table: "9" },
   SEB001: { guests: ["Viviana", "Fernando", "Carlos"], guestCount: 3, table: "1" },
   SEB002: { guests: ["Nicolas", "Ester", "Camila"], guestCount: 3, table: "1" },
   SEB003: { guests: ["Carolina", "Federico", "Julio"], guestCount: 3, table: "1" },
